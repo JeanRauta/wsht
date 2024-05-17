@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get('/')
 def index():
-    return 'app renderizado'
+    return 'o otavio é gay'
 
 @app.get('/teste/<userName>')
 def user(userName):
