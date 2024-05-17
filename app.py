@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask , render_template
 
 app = Flask(__name__)
 
-@app.get('/')
+@app.route('/')
 def index():
-    return 'o otavio é gay'
+    return render_template('index.html')
 
 @app.get('/teste/<userName>')
 def user(userName):
