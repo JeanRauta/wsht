@@ -6,6 +6,7 @@ cmake==3.29.3
 demucs @ git+https://github.com/facebookresearch/demucs@e976d93ecc3865e5757426930257e200846a520a
 dora_search==0.1.12
 einops==0.8.0
+ffmpeg==4.3.1
 filelock==3.14.0
 Flask==3.0.3
 gunicorn==22.0.0
