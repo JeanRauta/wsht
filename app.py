@@ -10,7 +10,7 @@ separator = demucs.api.Separator()
 @app.route('/')
 def process_audio():
     # Caminho do arquivo de áudio a ser processado
-    audio_file_path = './audio.mp3'  # Coloque o nome do seu arquivo de áudio aqui
+    audio_file_path = './audio.wav'  # Coloque o nome do seu arquivo de áudio aqui
 
     # Verifica se o arquivo de áudio existe
     if not os.path.exists(audio_file_path):
