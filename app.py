@@ -40,6 +40,6 @@ if __name__ == '__main__':
     options = {
         'bind': '%s:%s' % ('0.0.0.0', '5000'),
         'workers': 1,
-        'timeout': 120,  # Ajuste o valor de timeout conforme necessário
+        'timeout': 240,  # Ajuste o valor de timeout conforme necessário
     }
     GunicornApp(app, options).run()
